@@ -1,0 +1,68 @@
+.app-container {
+  min-height: 100vh;
+  background-color: #161624;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #f8fafc;
+}
+.countries-list-container {
+  list-style-type: none;
+  padding-left: 0;
+  overflow-y: scroll;
+  height: 300px;
+  width: 90vw;
+  align-self: center;
+  border: 1px solid #f1f5f9;
+  border-radius: 5px;
+  padding: 10px;
+}
+.each-country {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.country {
+  font-family: 'Roboto';
+  color: #f8fafc;
+}
+.button {
+  background-color: #3b82f6;
+  color: #f8fafc;
+  width: 80px;
+  height: 30px;
+  border: 0;
+  border-radius: 5px;
+}
+.no-list-view {
+  text-align: center;
+  font-family: 'Roboto';
+  color: #f8fafc;
+}
+.output-container {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.image {
+  width: 200px;
+}
+.name-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+  color: #f1f5f9;
+}
+.each-output-country {
+  width: 200px;
+  margin: 10px;
+}
+.visited {
+  color: #f1f5f9;
+}
